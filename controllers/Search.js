@@ -66,7 +66,7 @@ class Search
             });
         }
     }
-    //tirer par date croissant
+    //trier par date croissant
     sortApiByDateCroissant()
     {
         let url = "?dataset=que-faire-a-paris-&q=paris&sort=date_end";
@@ -76,7 +76,7 @@ class Search
         });
     }
     
-    //tirer par date decroissant
+    //trier par date decroissant
     sortApiByDateDeCroissant()
     {
         let url = "?dataset=que-faire-a-paris-&q=&sort=date_start";
@@ -87,7 +87,7 @@ class Search
         });
     }
     
-    //tirer par titre
+    //trier par titre
     sortApiByTitle()
     {
         let url = "?dataset=que-faire-a-paris-&q=paris&sort=title";
