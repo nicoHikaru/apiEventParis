@@ -1,0 +1,80 @@
+body,
+html {
+    min-height: 100vh;
+}
+
+html {
+    background: linear-gradient(to right, #ED4264, #FFEDBC);
+}
+
+body {
+    background: url('../images/subtle-grey.png') repeat;
+}
+
+i {
+    margin-right: 0.5em;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.event-list .event-image {
+    height: 350px;
+    object-fit: cover;
+    width: 250px;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.nav-item .img-thumbnail {
+    max-width: 50px;
+}
+.flexCenter {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.flexCenterColumn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+input {
+    width:300px;
+}
+.flexColumn {
+    display:flex;
+    flex-direction:column;
+}
+#res {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.cards{
+    position:relative;
+    max-width:500px;
+    height:400px;
+    background:white;
+    margin:15px 25px;
+    padding:10px 15px;
+    border-radius:10px;
+    /*display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;*/
+} 
+/*.result {*/
+/*    width:80%;*/
+/*    height:100vh;*/
+/*    display:flex;*/
+/*    justify-content:center;*/
+/*    align-items:center;*/
+/*}*/

@@ -1,0 +1,14 @@
+{
+  "name": "event-paris",
+  "version": "1.0.0",
+  "description": "use api event paris",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicoHikaru",
+  "license": "ISC",
+  "dependencies": {
+    "vanilla-router": "^1.2.8"
+  }
+}
